@@ -1,0 +1,105 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+   background-image:url(./image/icons-gray-bg.svg);
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+form{
+    background-color: white;
+    width: 21%;
+    height: 49%;
+    border-radius: 8px;
+    padding: 20px;
+}
+form h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(184, 167, 11);
+}
+.fa-face-grin-wide{
+    color: #F4CE14;
+    font-size: 30px;
+    position: relative ;
+    left: 48%;
+    top: 100%;
+}
+#head{
+    position: relative;
+}
+form h1{
+    text-align: center;
+    text-transform: initial;
+    color:#183153;
+}
+form h4{
+    
+    text-align: center;
+    text-transform: initial;
+    color: #183153;
+}
+.same, button{
+    display: block;
+    top: 80%;
+}
+form label{
+    color: darkblue;
+    font-size: 20px;
+}
+.diff{
+    width: 100%;
+    border-radius: 13px;
+    height: 50px;
+    border-color: darkblue;
+}
+form button{
+    padding: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    border-color: darkblue;
+    background-color: #F4CE14;
+}
+.email{
+    padding-bottom: 20px;
+    position: relative;
+}
+.fa-envelope{
+    position: absolute;
+    left: 2%;
+    top: 43%;
+
+}
+.pass{
+    padding-bottom: 20px;
+    position: relative;
+}
+.fa-lock{
+    position: absolute;
+    left: 40%;
+    top: 69%;
+}
+#foot{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+form #check{
+    position: relative;
+    padding: 20px;
+
+}
+form #sign{
+    position: relative;
+}
+
+a{
+    color: #183153;
+    left: 20%;
+}

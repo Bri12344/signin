@@ -1,0 +1,16 @@
+body{
+     margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#first{
+    color: red;
+}
+#first::placeholder{
+    color: blueviolet;
+}
+#last{
+    color: red;
+}
+#last::placeholder{
+    color: greenyellow;
+}
